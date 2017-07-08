@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+    <item
+        android:id="@+id/action_ModifyCity"
+        android:title="更换城市"
+        android:orderInCategory="1"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/action_ModifyImage"
+        android:orderInCategory="2"
+        android:title="更换背景"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/action_EveryPic"
+        android:orderInCategory="3"
+        android:title="每日一图"
+        app:showAsAction="never"
+        />
+
+
+
+</menu>
